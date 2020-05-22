@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Happiness</title>
+    <title>World Happiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -14,34 +14,33 @@
     crossorigin=""></script>
     <script type="text/javascript" src="static/choropleth.js"></script>
     <link rel="stylesheet" type="text/css" href="static/style.css">
-
-
 </head>
 <body>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">Happiness</a>
+                <a class="navbar-brand" href="#home">Home</a> 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" >
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarColor01">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#map">World Map<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">GeoMaps</a>
+                      <a class="nav-link js-scroll-trigger" href="#Scoreboard">Happiness Scoreboard</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Life Expectancy</a>
+                      <a class="nav-link js-scroll-trigger" href="#bubble">Life / Happiness </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                       <a class="nav-link" href="#">Data</a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
 
               </nav>
     <div class="container">
+      <div id='home'></div>
         <div class="row">
             <div class="col-md-12 jumbotron text-center">
         <h1>Happiness Around the World</h1>
@@ -71,29 +70,56 @@
                 </style>
             <div class="col-12 col text-center">
                 <div id="map"></div>
-                <h1>GEO MAP HERE</h1>
                 </div>
             </div>
         </div>
 
         <div class="container content2">
-          <div class="col-md-12">
-        <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
-          <div id="line"></div>
-          <h1>Line</h1>
-            </div>
-
-          <div class="col-md-6">
-          <div id="plot"></div>
-          <h1>Plot</h1>
+            <div class="row">
+              <div id="Scoreboard"></div>
+                <div class="col-md-12">
+                  <br>
+               
+                    <h6>Data Year</h6>
+                    <select id="selDataset" onchange="getData(this.value)">
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                  </select>
+                </div>
+            <div class="col-md-12 text-center">
+              <br>
+              <br>
+              <h2>Happiness Scoreboard</h2>
+              <h4>The Most and least happy countries in the world</h4>
+             <div id="bar"></div>
+              </div>
+          <div class="col-md-12 text-center">
+              <br>
+              <br>
+            <h2>Happiness linked to longer life</h2>
+          <div id="bubble"></div>
          </div>
+        </div>
       </div>
+    </div>        
+   </div>
+
+   <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">UC Davis &copy; Project #3 </p>
+      </div>
+      <!-- /.container -->
+    </footer>
           
  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="static/app.js"></script> 
-<script src="static/map.js"></script> 
+<script src="static/map.js"></script>
+<script src="static/graph.js"></script> 
 
 </body>
 </html>

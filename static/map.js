@@ -15,14 +15,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 // http://127.0.0.1:5000/api/v1/alldata
 var url = "http://127.0.0.1:5000/api/v1/alldata"
 
-d3.json(url).then(function(data) {
-  var data2 = data.filter( d => d["Data_Year"] == 2019 );
-  var country = data2[0].Country
-  console.log(data2)
-  console.log(data)
-  console.log(country)
-  // console.log('bob')
-})
+// d3.json(url).then(function(data) {
+//   var data2 = data.filter( d => d["Data_Year"] == 2019 );
+//   var country = data2[0].Country
+//   console.log(data2)
+//   console.log(data)
+//   console.log(country)
+//   // console.log('bob')
+// })
 
 
 
@@ -56,27 +56,27 @@ d3.json(url).then(function(data) {
 //   }).addTo(myMap);
 // });
 
-var trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  mode: 'markers',
-  type: 'scatter'
-};
+// var trace1 = {
+//   x: [1, 2, 3, 4],
+//   y: [10, 15, 13, 17],
+//   mode: 'markers',
+//   type: 'scatter'
+// };
 
-var trace2 = {
-  x: [2, 3, 4, 5],
-  y: [16, 5, 11, 9],
-  mode: 'lines',
-  type: 'scatter'
-};
+// var trace2 = {
+//   x: [2, 3, 4, 5],
+//   y: [16, 5, 11, 9],
+//   mode: 'lines',
+//   type: 'scatter'
+// };
 
-var trace3 = {
-  x: [1, 2, 3, 4],
-  y: [12, 9, 15, 12],
-  mode: 'lines+markers',
-  type: 'scatter'
-};
+// var trace3 = {
+//   x: [1, 2, 3, 4],
+//   y: [12, 9, 15, 12],
+//   mode: 'lines+markers',
+//   type: 'scatter'
+// };
 
-var data = [trace1, trace2, trace3];
+// var data = [trace1, trace2, trace3];
 
-Plotly.newPlot('myDiv', data);
+// Plotly.newPlot('myDiv', data);

@@ -1,0 +1,783 @@
+,0,1,2,3
+0,Afghanistan,2019,145,3.63
+1,Afghanistan,2018,145,3.63
+2,Afghanistan,2016,154,3.36
+3,Afghanistan,2017,141,3.79
+4,Afghanistan,2015,153,3.58
+5,Albania,2019,112,4.59
+6,Albania,2018,112,4.59
+7,Albania,2017,109,4.64
+8,Albania,2016,109,4.66
+9,Albania,2015,95,4.96
+10,Algeria,2018,84,5.3
+11,Algeria,2016,38,6.36
+12,Algeria,2015,68,5.6
+13,Algeria,2019,84,5.3
+14,Algeria,2017,53,5.87
+15,Angola,2019,142,3.8
+16,Angola,2017,140,3.8
+17,Angola,2015,137,4.03
+18,Angola,2018,142,3.8
+19,Angola,2016,141,3.87
+20,Argentina,2019,29,6.39
+21,Argentina,2018,29,6.39
+22,Argentina,2017,24,6.6
+23,Argentina,2015,30,6.57
+24,Argentina,2016,26,6.65
+25,Armenia,2019,129,4.32
+26,Armenia,2017,121,4.38
+27,Armenia,2018,129,4.32
+28,Armenia,2015,127,4.35
+29,Armenia,2016,121,4.36
+30,Australia,2015,10,7.28
+31,Australia,2016,9,7.31
+32,Australia,2017,10,7.28
+33,Australia,2019,10,7.27
+34,Australia,2018,10,7.27
+35,Austria,2016,12,7.12
+36,Austria,2019,12,7.14
+37,Austria,2018,12,7.14
+38,Austria,2017,13,7.01
+39,Austria,2015,13,7.2
+40,Azerbaijan,2017,85,5.23
+41,Azerbaijan,2018,87,5.2
+42,Azerbaijan,2016,81,5.29
+43,Azerbaijan,2015,80,5.21
+44,Azerbaijan,2019,87,5.2
+45,Bahrain,2018,43,6.1
+46,Bahrain,2019,43,6.1
+47,Bahrain,2016,42,6.22
+48,Bahrain,2017,41,6.09
+49,Bahrain,2015,49,5.96
+50,Bangladesh,2018,115,4.5
+51,Bangladesh,2016,110,4.64
+52,Bangladesh,2015,109,4.69
+53,Bangladesh,2017,110,4.61
+54,Bangladesh,2019,115,4.5
+55,Belarus,2019,73,5.48
+56,Belarus,2018,73,5.48
+57,Belarus,2016,61,5.8
+58,Belarus,2017,67,5.57
+59,Belarus,2015,59,5.81
+60,Belgium,2016,18,6.93
+61,Belgium,2019,16,6.93
+62,Belgium,2017,17,6.89
+63,Belgium,2018,16,6.93
+64,Belgium,2015,19,6.94
+65,Belize,2017,50,5.96
+66,Belize,2016,52,5.96
+67,Belize,2018,49,5.96
+68,Belize,2019,49,5.96
+69,Benin,2019,136,4.14
+70,Benin,2018,136,4.14
+71,Benin,2015,155,3.34
+72,Benin,2016,153,3.48
+73,Benin,2017,143,3.66
+74,Bhutan,2017,97,5.01
+75,Bhutan,2015,79,5.25
+76,Bhutan,2018,97,5.08
+77,Bhutan,2016,84,5.2
+78,Bhutan,2019,97,5.08
+79,Bolivia,2017,58,5.82
+80,Bolivia,2016,59,5.82
+81,Bolivia,2018,62,5.75
+82,Bolivia,2015,51,5.89
+83,Bolivia,2019,62,5.75
+84,Bosnia and Herzegovina,2015,96,4.95
+85,Bosnia and Herzegovina,2017,90,5.18
+86,Bosnia and Herzegovina,2016,87,5.16
+87,Bosnia and Herzegovina,2018,93,5.13
+88,Bosnia and Herzegovina,2019,93,5.13
+89,Botswana,2018,146,3.59
+90,Botswana,2016,137,3.97
+91,Botswana,2015,128,4.33
+92,Botswana,2017,142,3.77
+93,Botswana,2019,146,3.59
+94,Brazil,2016,17,6.95
+95,Brazil,2017,22,6.64
+96,Brazil,2015,16,6.98
+97,Brazil,2019,28,6.42
+98,Brazil,2018,28,6.42
+99,Bulgaria,2015,134,4.22
+100,Bulgaria,2019,100,4.93
+101,Bulgaria,2016,129,4.22
+102,Bulgaria,2018,100,4.93
+103,Bulgaria,2017,105,4.71
+104,Burkina Faso,2017,134,4.03
+105,Burkina Faso,2016,145,3.74
+106,Burkina Faso,2018,121,4.42
+107,Burkina Faso,2015,152,3.59
+108,Burkina Faso,2019,121,4.42
+109,Burundi,2015,157,2.9
+110,Burundi,2017,154,2.9
+111,Burundi,2016,157,2.9
+112,Burundi,2018,156,2.9
+113,Burundi,2019,156,2.9
+114,Cambodia,2019,120,4.43
+115,Cambodia,2017,129,4.17
+116,Cambodia,2015,145,3.82
+117,Cambodia,2016,140,3.91
+118,Cambodia,2018,120,4.43
+119,Cameroon,2015,133,4.25
+120,Cameroon,2017,107,4.7
+121,Cameroon,2016,114,4.51
+122,Cameroon,2019,99,4.97
+123,Cameroon,2018,99,4.97
+124,Canada,2019,7,7.33
+125,Canada,2018,7,7.33
+126,Canada,2016,6,7.4
+127,Canada,2015,5,7.43
+128,Canada,2017,7,7.32
+129,Central African Republic,2015,148,3.68
+130,Central African Republic,2017,155,2.69
+131,Central African Republic,2018,155,3.08
+132,Central African Republic,2019,155,3.08
+133,Chad,2019,131,4.3
+134,Chad,2015,149,3.67
+135,Chad,2017,137,3.94
+136,Chad,2016,144,3.76
+137,Chad,2018,131,4.3
+138,Chile,2018,25,6.48
+139,Chile,2016,24,6.7
+140,Chile,2019,25,6.48
+141,Chile,2015,27,6.67
+142,Chile,2017,20,6.65
+143,China,2018,86,5.25
+144,China,2019,86,5.25
+145,China,2015,84,5.14
+146,China,2016,83,5.24
+147,China,2017,79,5.27
+148,Colombia,2018,37,6.26
+149,Colombia,2016,31,6.48
+150,Colombia,2017,36,6.36
+151,Colombia,2019,37,6.26
+152,Colombia,2015,33,6.48
+153,Comoros,2015,140,3.96
+154,Comoros,2016,138,3.96
+155,Congo (Brazzaville),2019,114,4.56
+156,Congo (Brazzaville),2015,139,3.99
+157,Congo (Brazzaville),2016,127,4.24
+158,Congo (Brazzaville),2017,124,4.29
+159,Congo (Brazzaville),2018,114,4.56
+160,Congo (Kinshasa),2019,132,4.24
+161,Congo (Kinshasa),2015,120,4.52
+162,Congo (Kinshasa),2016,125,4.27
+163,Congo (Kinshasa),2018,132,4.24
+164,Congo (Kinshasa),2017,126,4.28
+165,Costa Rica,2018,13,7.07
+166,Costa Rica,2017,12,7.08
+167,Costa Rica,2016,14,7.09
+168,Costa Rica,2019,13,7.07
+169,Costa Rica,2015,12,7.23
+170,Croatia,2019,82,5.32
+171,Croatia,2017,77,5.29
+172,Croatia,2015,62,5.76
+173,Croatia,2016,74,5.49
+174,Croatia,2018,82,5.32
+175,Cyprus,2018,61,5.76
+176,Cyprus,2017,65,5.62
+177,Cyprus,2015,67,5.69
+178,Cyprus,2016,69,5.55
+179,Cyprus,2019,61,5.76
+180,Czech Republic,2017,23,6.61
+181,Czech Republic,2016,27,6.6
+182,Czech Republic,2015,31,6.5
+183,Czech Republic,2018,21,6.71
+184,Czech Republic,2019,21,6.71
+185,Denmark,2019,3,7.56
+186,Denmark,2016,1,7.53
+187,Denmark,2015,3,7.53
+188,Denmark,2017,2,7.52
+189,Denmark,2018,3,7.56
+190,Djibouti,2015,126,4.37
+191,Dominican Republic,2015,98,4.88
+192,Dominican Republic,2017,86,5.23
+193,Dominican Republic,2018,83,5.3
+194,Dominican Republic,2019,83,5.3
+195,Dominican Republic,2016,89,5.16
+196,Ecuador,2017,44,6.01
+197,Ecuador,2018,48,5.97
+198,Ecuador,2015,48,5.98
+199,Ecuador,2016,51,5.98
+200,Ecuador,2019,48,5.97
+201,Egypt,2018,122,4.42
+202,Egypt,2017,104,4.74
+203,Egypt,2016,120,4.36
+204,Egypt,2019,122,4.42
+205,Egypt,2015,135,4.19
+206,El Salvador,2015,42,6.13
+207,El Salvador,2018,40,6.17
+208,El Salvador,2019,40,6.17
+209,El Salvador,2017,45,6.0
+210,El Salvador,2016,46,6.07
+211,Estonia,2016,72,5.52
+212,Estonia,2018,63,5.74
+213,Estonia,2017,66,5.61
+214,Estonia,2015,73,5.43
+215,Estonia,2019,63,5.74
+216,Ethiopia,2015,122,4.51
+217,Ethiopia,2019,127,4.35
+218,Ethiopia,2018,127,4.35
+219,Ethiopia,2016,115,4.51
+220,Ethiopia,2017,119,4.46
+221,Finland,2016,5,7.41
+222,Finland,2019,1,7.63
+223,Finland,2017,5,7.47
+224,Finland,2015,6,7.41
+225,Finland,2018,1,7.63
+226,France,2019,23,6.49
+227,France,2015,29,6.58
+228,France,2017,31,6.44
+229,France,2016,32,6.48
+230,France,2018,23,6.49
+231,Gabon,2015,143,3.9
+232,Gabon,2016,134,4.12
+233,Gabon,2018,103,4.76
+234,Gabon,2019,103,4.76
+235,Gabon,2017,118,4.47
+236,Georgia,2016,126,4.25
+237,Georgia,2015,130,4.3
+238,Georgia,2019,128,4.34
+239,Georgia,2017,125,4.29
+240,Georgia,2018,128,4.34
+241,Germany,2015,26,6.75
+242,Germany,2017,16,6.95
+243,Germany,2016,16,6.99
+244,Germany,2018,15,6.96
+245,Germany,2019,15,6.96
+246,Ghana,2018,108,4.66
+247,Ghana,2019,108,4.66
+248,Ghana,2016,124,4.28
+249,Ghana,2017,131,4.12
+250,Ghana,2015,114,4.63
+251,Greece,2017,87,5.23
+252,Greece,2016,99,5.03
+253,Greece,2015,102,4.86
+254,Greece,2019,79,5.36
+255,Greece,2018,79,5.36
+256,Guatemala,2019,30,6.38
+257,Guatemala,2015,43,6.12
+258,Guatemala,2016,39,6.32
+259,Guatemala,2017,29,6.45
+260,Guatemala,2018,30,6.38
+261,Guinea,2019,140,3.96
+262,Guinea,2017,149,3.51
+263,Guinea,2018,140,3.96
+264,Guinea,2016,151,3.61
+265,Guinea,2015,150,3.66
+266,Haiti,2019,148,3.58
+267,Haiti,2018,148,3.58
+268,Haiti,2016,136,4.03
+269,Haiti,2015,119,4.52
+270,Haiti,2017,145,3.6
+271,Honduras,2016,104,4.87
+272,Honduras,2018,72,5.5
+273,Honduras,2015,105,4.79
+274,Honduras,2017,91,5.18
+275,Honduras,2019,72,5.5
+276,Hong Kong,2019,76,5.43
+277,Hong Kong,2016,75,5.46
+278,Hong Kong,2015,72,5.47
+279,Hong Kong,2018,76,5.43
+280,"Hong Kong S.A.R., China",2017,71,5.47
+281,Hungary,2017,75,5.32
+282,Hungary,2015,104,4.8
+283,Hungary,2018,69,5.62
+284,Hungary,2016,91,5.14
+285,Hungary,2019,69,5.62
+286,Iceland,2015,2,7.56
+287,Iceland,2016,3,7.5
+288,Iceland,2018,4,7.5
+289,Iceland,2017,3,7.5
+290,Iceland,2019,4,7.5
+291,India,2018,133,4.19
+292,India,2015,117,4.57
+293,India,2016,118,4.4
+294,India,2017,122,4.32
+295,India,2019,133,4.19
+296,Indonesia,2019,96,5.09
+297,Indonesia,2017,81,5.26
+298,Indonesia,2018,96,5.09
+299,Indonesia,2016,79,5.31
+300,Indonesia,2015,74,5.4
+301,Iran,2015,110,4.69
+302,Iran,2019,106,4.71
+303,Iran,2018,106,4.71
+304,Iran,2016,105,4.81
+305,Iran,2017,108,4.69
+306,Iraq,2016,112,4.58
+307,Iraq,2018,117,4.46
+308,Iraq,2015,112,4.68
+309,Iraq,2017,117,4.5
+310,Iraq,2019,117,4.46
+311,Ireland,2015,18,6.94
+312,Ireland,2019,14,6.98
+313,Ireland,2018,14,6.98
+314,Ireland,2017,15,6.98
+315,Ireland,2016,19,6.91
+316,Israel,2015,11,7.28
+317,Israel,2017,11,7.21
+318,Israel,2018,19,6.81
+319,Israel,2019,19,6.81
+320,Israel,2016,11,7.27
+321,Italy,2017,48,5.96
+322,Italy,2016,50,5.98
+323,Italy,2018,47,6.0
+324,Italy,2015,50,5.95
+325,Italy,2019,47,6.0
+326,Ivory Coast,2016,139,3.92
+327,Ivory Coast,2015,151,3.66
+328,Ivory Coast,2018,107,4.67
+329,Ivory Coast,2017,128,4.18
+330,Ivory Coast,2019,107,4.67
+331,Jamaica,2016,73,5.51
+332,Jamaica,2019,56,5.89
+333,Jamaica,2018,56,5.89
+334,Jamaica,2015,65,5.71
+335,Jamaica,2017,76,5.31
+336,Japan,2016,53,5.92
+337,Japan,2018,54,5.92
+338,Japan,2015,46,5.99
+339,Japan,2019,54,5.92
+340,Japan,2017,51,5.92
+341,Jordan,2018,90,5.16
+342,Jordan,2015,82,5.19
+343,Jordan,2019,90,5.16
+344,Jordan,2017,74,5.34
+345,Jordan,2016,80,5.3
+346,Kazakhstan,2019,60,5.79
+347,Kazakhstan,2018,60,5.79
+348,Kazakhstan,2016,54,5.92
+349,Kazakhstan,2017,60,5.82
+350,Kazakhstan,2015,54,5.86
+351,Kenya,2016,122,4.36
+352,Kenya,2018,124,4.41
+353,Kenya,2015,125,4.42
+354,Kenya,2019,124,4.41
+355,Kenya,2017,112,4.55
+356,Kosovo,2019,66,5.66
+357,Kosovo,2018,66,5.66
+358,Kosovo,2016,77,5.4
+359,Kosovo,2015,69,5.59
+360,Kosovo,2017,78,5.28
+361,Kuwait,2015,39,6.3
+362,Kuwait,2017,39,6.11
+363,Kuwait,2019,45,6.08
+364,Kuwait,2018,45,6.08
+365,Kuwait,2016,41,6.24
+366,Kyrgyzstan,2018,92,5.13
+367,Kyrgyzstan,2015,77,5.29
+368,Kyrgyzstan,2019,92,5.13
+369,Kyrgyzstan,2016,85,5.18
+370,Kyrgyzstan,2017,98,5.0
+371,Laos,2019,110,4.62
+372,Laos,2018,110,4.62
+373,Laos,2015,99,4.88
+374,Laos,2016,102,4.88
+375,Latvia,2016,68,5.56
+376,Latvia,2017,54,5.85
+377,Latvia,2018,53,5.93
+378,Latvia,2019,53,5.93
+379,Latvia,2015,89,5.1
+380,Lebanon,2019,80,5.36
+381,Lebanon,2017,88,5.22
+382,Lebanon,2018,80,5.36
+383,Lebanon,2015,103,4.84
+384,Lebanon,2016,93,5.13
+385,Lesotho,2019,141,3.81
+386,Lesotho,2015,97,4.9
+387,Lesotho,2017,139,3.81
+388,Lesotho,2018,141,3.81
+389,Liberia,2019,149,3.5
+390,Liberia,2018,149,3.5
+391,Liberia,2017,148,3.53
+392,Liberia,2015,116,4.57
+393,Liberia,2016,150,3.62
+394,Libya,2019,70,5.57
+395,Libya,2018,70,5.57
+396,Libya,2015,63,5.75
+397,Libya,2016,67,5.62
+398,Libya,2017,68,5.53
+399,Lithuania,2015,56,5.83
+400,Lithuania,2019,50,5.95
+401,Lithuania,2016,60,5.81
+402,Lithuania,2018,50,5.95
+403,Lithuania,2017,52,5.9
+404,Luxembourg,2018,17,6.91
+405,Luxembourg,2015,17,6.95
+406,Luxembourg,2019,17,6.91
+407,Luxembourg,2016,20,6.87
+408,Luxembourg,2017,18,6.86
+409,Macedonia,2016,95,5.12
+410,Macedonia,2017,92,5.18
+411,Macedonia,2015,93,5.01
+412,Macedonia,2019,89,5.18
+413,Macedonia,2018,89,5.18
+414,Madagascar,2015,147,3.68
+415,Madagascar,2017,144,3.64
+416,Madagascar,2016,148,3.7
+417,Madagascar,2019,143,3.77
+418,Madagascar,2018,143,3.77
+419,Malawi,2019,147,3.59
+420,Malawi,2015,131,4.29
+421,Malawi,2018,147,3.59
+422,Malawi,2016,132,4.16
+423,Malawi,2017,136,3.97
+424,Malaysia,2018,35,6.32
+425,Malaysia,2016,47,6.0
+426,Malaysia,2019,35,6.32
+427,Malaysia,2015,61,5.77
+428,Malaysia,2017,42,6.08
+429,Mali,2016,135,4.07
+430,Mali,2017,127,4.19
+431,Mali,2018,118,4.45
+432,Mali,2015,138,4.0
+433,Mali,2019,118,4.45
+434,Malta,2016,30,6.49
+435,Malta,2015,37,6.3
+436,Malta,2017,27,6.53
+437,Malta,2018,22,6.63
+438,Malta,2019,22,6.63
+439,Mauritania,2019,126,4.36
+440,Mauritania,2015,124,4.44
+441,Mauritania,2017,123,4.29
+442,Mauritania,2018,126,4.36
+443,Mauritania,2016,130,4.2
+444,Mauritius,2016,66,5.65
+445,Mauritius,2018,55,5.89
+446,Mauritius,2015,71,5.48
+447,Mauritius,2019,55,5.89
+448,Mauritius,2017,64,5.63
+449,Mexico,2019,24,6.49
+450,Mexico,2018,24,6.49
+451,Mexico,2016,21,6.78
+452,Mexico,2017,25,6.58
+453,Mexico,2015,14,7.19
+454,Moldova,2015,52,5.89
+455,Moldova,2018,67,5.64
+456,Moldova,2017,56,5.84
+457,Moldova,2016,55,5.9
+458,Moldova,2019,67,5.64
+459,Mongolia,2019,94,5.12
+460,Mongolia,2018,94,5.12
+461,Mongolia,2015,100,4.87
+462,Mongolia,2016,101,4.91
+463,Mongolia,2017,100,4.95
+464,Montenegro,2016,88,5.16
+465,Montenegro,2019,81,5.35
+466,Montenegro,2015,82,5.19
+467,Montenegro,2018,81,5.35
+468,Montenegro,2017,83,5.24
+469,Morocco,2017,84,5.24
+470,Morocco,2015,92,5.01
+471,Morocco,2016,90,5.15
+472,Morocco,2019,85,5.25
+473,Morocco,2018,85,5.25
+474,Mozambique,2018,123,4.42
+475,Mozambique,2015,94,4.97
+476,Mozambique,2017,113,4.55
+477,Mozambique,2019,123,4.42
+478,Myanmar,2015,129,4.31
+479,Myanmar,2018,130,4.31
+480,Myanmar,2017,114,4.55
+481,Myanmar,2016,119,4.39
+482,Myanmar,2019,130,4.31
+483,Namibia,2017,111,4.57
+484,Namibia,2019,119,4.44
+485,Namibia,2018,119,4.44
+486,Namibia,2016,113,4.57
+487,Nepal,2017,99,4.96
+488,Nepal,2015,121,4.51
+489,Nepal,2016,107,4.79
+490,Nepal,2018,101,4.88
+491,Nepal,2019,101,4.88
+492,Netherlands,2016,7,7.34
+493,Netherlands,2015,7,7.38
+494,Netherlands,2019,6,7.44
+495,Netherlands,2017,6,7.38
+496,Netherlands,2018,6,7.44
+497,New Zealand,2015,9,7.29
+498,New Zealand,2019,8,7.32
+499,New Zealand,2018,8,7.32
+500,New Zealand,2016,8,7.33
+501,New Zealand,2017,8,7.31
+502,Nicaragua,2019,41,6.14
+503,Nicaragua,2016,48,5.99
+504,Nicaragua,2018,41,6.14
+505,Nicaragua,2015,57,5.83
+506,Nicaragua,2017,43,6.07
+507,Niger,2019,134,4.17
+508,Niger,2018,134,4.17
+509,Niger,2017,135,4.03
+510,Niger,2015,144,3.84
+511,Niger,2016,142,3.86
+512,Nigeria,2018,91,5.16
+513,Nigeria,2016,103,4.88
+514,Nigeria,2015,78,5.27
+515,Nigeria,2019,91,5.16
+516,Nigeria,2017,95,5.07
+517,North Cyprus,2017,61,5.81
+518,North Cyprus,2016,62,5.77
+519,North Cyprus,2015,66,5.7
+520,Northern Cyprus,2019,58,5.84
+521,Northern Cyprus,2018,58,5.84
+522,Norway,2019,2,7.59
+523,Norway,2018,2,7.59
+524,Norway,2016,4,7.5
+525,Norway,2015,4,7.52
+526,Norway,2017,1,7.54
+527,Oman,2015,22,6.85
+528,Pakistan,2016,92,5.13
+529,Pakistan,2018,75,5.47
+530,Pakistan,2015,81,5.19
+531,Pakistan,2017,80,5.27
+532,Pakistan,2019,75,5.47
+533,Palestinian Territories,2019,104,4.74
+534,Palestinian Territories,2016,108,4.75
+535,Palestinian Territories,2018,104,4.74
+536,Palestinian Territories,2015,108,4.72
+537,Palestinian Territories,2017,103,4.78
+538,Panama,2017,30,6.45
+539,Panama,2018,27,6.43
+540,Panama,2016,25,6.7
+541,Panama,2015,25,6.79
+542,Panama,2019,27,6.43
+543,Paraguay,2017,70,5.49
+544,Paraguay,2018,64,5.68
+545,Paraguay,2016,70,5.54
+546,Paraguay,2015,53,5.88
+547,Paraguay,2019,64,5.68
+548,Peru,2015,58,5.82
+549,Peru,2016,64,5.74
+550,Peru,2018,65,5.66
+551,Peru,2017,63,5.72
+552,Peru,2019,65,5.66
+553,Philippines,2018,71,5.52
+554,Philippines,2015,90,5.07
+555,Philippines,2017,72,5.43
+556,Philippines,2016,82,5.28
+557,Philippines,2019,71,5.52
+558,Poland,2019,42,6.12
+559,Poland,2018,42,6.12
+560,Poland,2015,60,5.79
+561,Poland,2016,57,5.84
+562,Poland,2017,46,5.97
+563,Portugal,2019,77,5.41
+564,Portugal,2016,94,5.12
+565,Portugal,2015,88,5.1
+566,Portugal,2017,89,5.2
+567,Portugal,2018,77,5.41
+568,Puerto Rico,2016,15,7.04
+569,Qatar,2016,36,6.38
+570,Qatar,2017,35,6.38
+571,Qatar,2015,28,6.61
+572,Qatar,2018,32,6.37
+573,Qatar,2019,32,6.37
+574,Romania,2016,71,5.53
+575,Romania,2019,52,5.94
+576,Romania,2018,52,5.94
+577,Romania,2015,86,5.12
+578,Romania,2017,57,5.82
+579,Russia,2017,49,5.96
+580,Russia,2019,59,5.81
+581,Russia,2018,59,5.81
+582,Russia,2015,64,5.72
+583,Russia,2016,56,5.86
+584,Rwanda,2016,152,3.52
+585,Rwanda,2015,154,3.46
+586,Rwanda,2017,151,3.47
+587,Rwanda,2018,151,3.41
+588,Rwanda,2019,151,3.41
+589,Saudi Arabia,2017,37,6.34
+590,Saudi Arabia,2018,33,6.37
+591,Saudi Arabia,2015,35,6.41
+592,Saudi Arabia,2016,34,6.38
+593,Saudi Arabia,2019,33,6.37
+594,Senegal,2017,115,4.53
+595,Senegal,2016,128,4.22
+596,Senegal,2015,142,3.9
+597,Senegal,2019,109,4.63
+598,Senegal,2018,109,4.63
+599,Serbia,2017,73,5.39
+600,Serbia,2016,86,5.18
+601,Serbia,2015,87,5.12
+602,Serbia,2019,78,5.4
+603,Serbia,2018,78,5.4
+604,Sierra Leone,2015,123,4.51
+605,Sierra Leone,2016,111,4.64
+606,Sierra Leone,2017,106,4.71
+607,Sierra Leone,2018,113,4.57
+608,Sierra Leone,2019,113,4.57
+609,Singapore,2016,22,6.74
+610,Singapore,2019,34,6.34
+611,Singapore,2017,26,6.57
+612,Singapore,2018,34,6.34
+613,Singapore,2015,24,6.8
+614,Slovakia,2018,39,6.17
+615,Slovakia,2016,45,6.08
+616,Slovakia,2017,40,6.1
+617,Slovakia,2015,45,6.0
+618,Slovakia,2019,39,6.17
+619,Slovenia,2017,62,5.76
+620,Slovenia,2018,51,5.95
+621,Slovenia,2016,63,5.77
+622,Slovenia,2019,51,5.95
+623,Slovenia,2015,55,5.85
+624,Somalia,2017,93,5.15
+625,Somalia,2018,98,4.98
+626,Somalia,2016,76,5.44
+627,Somalia,2019,98,4.98
+628,Somaliland Region,2016,97,5.06
+629,Somaliland region,2015,91,5.06
+630,South Africa,2019,105,4.72
+631,South Africa,2017,101,4.83
+632,South Africa,2015,113,4.64
+633,South Africa,2018,105,4.72
+634,South Africa,2016,116,4.46
+635,South Korea,2018,57,5.88
+636,South Korea,2016,57,5.84
+637,South Korea,2015,47,5.98
+638,South Korea,2019,57,5.88
+639,South Korea,2017,55,5.84
+640,South Sudan,2018,154,3.25
+641,South Sudan,2017,147,3.59
+642,South Sudan,2019,154,3.25
+643,South Sudan,2016,143,3.83
+644,Spain,2018,36,6.31
+645,Spain,2019,36,6.31
+646,Spain,2016,37,6.36
+647,Spain,2017,34,6.4
+648,Spain,2015,36,6.33
+649,Sri Lanka,2016,117,4.42
+650,Sri Lanka,2015,132,4.27
+651,Sri Lanka,2017,120,4.44
+652,Sri Lanka,2018,116,4.47
+653,Sri Lanka,2019,116,4.47
+654,Sudan,2018,137,4.14
+655,Sudan,2015,118,4.55
+656,Sudan,2016,133,4.14
+657,Sudan,2019,137,4.14
+658,Sudan,2017,130,4.14
+659,Suriname,2015,40,6.27
+660,Suriname,2016,40,6.27
+661,Swaziland,2015,101,4.87
+662,Sweden,2019,9,7.31
+663,Sweden,2018,9,7.31
+664,Sweden,2017,9,7.28
+665,Sweden,2015,8,7.36
+666,Sweden,2016,10,7.29
+667,Switzerland,2019,5,7.49
+668,Switzerland,2016,2,7.51
+669,Switzerland,2015,1,7.59
+670,Switzerland,2017,4,7.49
+671,Switzerland,2018,5,7.49
+672,Syria,2016,156,3.07
+673,Syria,2018,150,3.46
+674,Syria,2015,156,3.01
+675,Syria,2017,152,3.46
+676,Syria,2019,150,3.46
+677,Taiwan,2018,26,6.44
+678,Taiwan,2015,38,6.3
+679,Taiwan,2019,26,6.44
+680,Taiwan,2016,34,6.38
+681,Taiwan Province of China,2017,33,6.42
+682,Tajikistan,2019,88,5.2
+683,Tajikistan,2016,100,5.0
+684,Tajikistan,2017,96,5.04
+685,Tajikistan,2018,88,5.2
+686,Tajikistan,2015,106,4.79
+687,Tanzania,2018,153,3.3
+688,Tanzania,2017,153,3.35
+689,Tanzania,2016,149,3.67
+690,Tanzania,2015,146,3.78
+691,Tanzania,2019,153,3.3
+692,Thailand,2017,32,6.42
+693,Thailand,2016,33,6.47
+694,Thailand,2015,34,6.46
+695,Thailand,2018,46,6.07
+696,Thailand,2019,46,6.07
+697,Togo,2016,155,3.3
+698,Togo,2015,158,2.84
+699,Togo,2019,139,4.0
+700,Togo,2018,139,4.0
+701,Togo,2017,150,3.49
+702,Trinidad & Tobago,2019,38,6.19
+703,Trinidad & Tobago,2018,38,6.19
+704,Trinidad and Tobago,2015,41,6.17
+705,Trinidad and Tobago,2016,43,6.17
+706,Trinidad and Tobago,2017,38,6.17
+707,Tunisia,2015,107,4.74
+708,Tunisia,2017,102,4.8
+709,Tunisia,2016,98,5.04
+710,Tunisia,2018,111,4.59
+711,Tunisia,2019,111,4.59
+712,Turkey,2017,69,5.5
+713,Turkey,2016,78,5.39
+714,Turkey,2019,74,5.48
+715,Turkey,2018,74,5.48
+716,Turkey,2015,76,5.33
+717,Turkmenistan,2016,65,5.66
+718,Turkmenistan,2015,70,5.55
+719,Turkmenistan,2017,59,5.82
+720,Turkmenistan,2019,68,5.64
+721,Turkmenistan,2018,68,5.64
+722,Uganda,2018,135,4.16
+723,Uganda,2015,141,3.93
+724,Uganda,2017,133,4.08
+725,Uganda,2016,145,3.74
+726,Uganda,2019,135,4.16
+727,Ukraine,2019,138,4.1
+728,Ukraine,2017,132,4.1
+729,Ukraine,2016,123,4.32
+730,Ukraine,2015,111,4.68
+731,Ukraine,2018,138,4.1
+732,United Arab Emirates,2016,28,6.57
+733,United Arab Emirates,2017,21,6.65
+734,United Arab Emirates,2015,20,6.9
+735,United Arab Emirates,2018,20,6.77
+736,United Arab Emirates,2019,20,6.77
+737,United Kingdom,2016,23,6.72
+738,United Kingdom,2015,21,6.87
+739,United Kingdom,2017,19,6.71
+740,United Kingdom,2018,11,7.19
+741,United Kingdom,2019,11,7.19
+742,United States,2019,18,6.89
+743,United States,2017,14,6.99
+744,United States,2018,18,6.89
+745,United States,2015,15,7.12
+746,United States,2016,13,7.1
+747,Uruguay,2015,32,6.48
+748,Uruguay,2018,31,6.38
+749,Uruguay,2016,29,6.54
+750,Uruguay,2019,31,6.38
+751,Uruguay,2017,28,6.45
+752,Uzbekistan,2017,47,5.97
+753,Uzbekistan,2015,44,6.0
+754,Uzbekistan,2016,49,5.99
+755,Uzbekistan,2018,44,6.1
+756,Uzbekistan,2019,44,6.1
+757,Venezuela,2019,102,4.81
+758,Venezuela,2018,102,4.81
+759,Venezuela,2017,82,5.25
+760,Venezuela,2016,44,6.08
+761,Venezuela,2015,23,6.81
+762,Vietnam,2019,95,5.1
+763,Vietnam,2016,96,5.06
+764,Vietnam,2018,95,5.1
+765,Vietnam,2017,94,5.07
+766,Vietnam,2015,75,5.36
+767,Yemen,2017,146,3.59
+768,Yemen,2018,152,3.36
+769,Yemen,2015,136,4.08
+770,Yemen,2019,152,3.36
+771,Yemen,2016,147,3.72
+772,Zambia,2019,125,4.38
+773,Zambia,2018,125,4.38
+774,Zambia,2017,116,4.51
+775,Zambia,2015,85,5.13
+776,Zambia,2016,106,4.8
+777,Zimbabwe,2016,131,4.19
+778,Zimbabwe,2019,144,3.69
+779,Zimbabwe,2018,144,3.69
+780,Zimbabwe,2017,138,3.88
+781,Zimbabwe,2015,115,4.61
