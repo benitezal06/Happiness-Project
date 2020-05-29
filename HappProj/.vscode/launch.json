@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Flask",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${config:python.interpreterPath}",
+            "program": "${workspaceRoot}/app.py",
+            "env": {
+                "FLASK_APP": "${workspaceRoot}/app.py"
+            },
+            "args": [
+                "run"
+            ],
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
