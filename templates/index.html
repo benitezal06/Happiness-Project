@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>World Happiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
-    <script type="text/javascript" src="static/choropleth.js"></script>
-    <link rel="stylesheet" type="text/css" href="static/style.css">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- <script type="text/javascript" src="static/choropleth.js"></script> -->
+
 </head>
+
 <body>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
                 <a class="navbar-brand" href="#home">Home</a> 
@@ -73,7 +75,13 @@
                 </div>
             </div>
         </div>
+ <!-- D3 -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 
+ <!-- Leaflet JavaScript -->
+ <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+ integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+ crossorigin=""></script>
         <div class="container content2">
             <div class="row">
               <div id="Scoreboard"></div>
@@ -97,15 +105,22 @@
              <div id="bar"></div>
               </div>
           <div class="col-md-12 text-center">
-              <br>
-              <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <h2>Happiness linked to longer life</h2>
+            <h4>Report 2019</h4>
           <div id="bubble"></div>
          </div>
         </div>
       </div>
     </div>        
    </div>
+<br>
+<br>
 
    <footer class="py-5 bg-dark">
       <div class="container">
@@ -117,9 +132,7 @@
  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-<script src="static/app.js"></script> 
 <script src="static/map.js"></script>
 <script src="static/graph.js"></script> 
-
 </body>
 </html>
