@@ -1,13 +1,27 @@
+var trace1={};
+var trace2={};
+var trace3={};
+var trace4={};
+var trace5={};
+var trace6={};
+var trace7={};
+var trace8={};
+var trace9={};
+var trace10={};
+
 function buildPlot() {
 var url = "http://127.0.0.1:5000/api/v1/alldata"
+
 d3.json(url).then(function(data) {
+  
   var data1 = data;
   var data2 = data.filter( d => d["Data_Year"] == 2019 );
   var data3 = data.filter( d => d["Data_Year"] == 2018 );
   var data4 = data.filter( d => d["Data_Year"] == 2017 );
   var data5 = data.filter( d => d["Data_Year"] == 2016 );
   var data6 = data.filter( d => d["Data_Year"] == 2015 );
-
+// console.log(data2)
+// console.log(data3)
   var sortedByranking1 = data2.sort((a, b) => b.Happiness_Score - a.Happiness_Score);
   var sortedByranking2= data3.sort((a, b) => b.Happiness_Score - a.Happiness_Score);
   var sortedByranking3 = data4.sort((a, b) => b.Happiness_Score - a.Happiness_Score);
@@ -24,7 +38,7 @@ d3.json(url).then(function(data) {
   slicedData8 = sortedByranking4.slice(152,157).reverse();
   slicedData9 = sortedByranking5.slice(0,6).reverse();
   slicedData10 = sortedByranking5.slice(153,158).reverse();
-var trace1 = {
+ trace1 = {
   x: slicedData.map(object => object.Happiness_Score),
   y: slicedData.map(object => object.Country),
   type: "bar",
@@ -34,7 +48,7 @@ var trace1 = {
     opacity: 0.8,
   }
   }
-var trace2 = {
+ trace2 = {
 x: slicedData2.map(object=> object.Happiness_Score),
 y: slicedData2.map(object=> object.Country),
   type: "bar",
@@ -45,7 +59,7 @@ y: slicedData2.map(object=> object.Country),
   }
 
 }
-var trace3 = {
+ trace3 = {
   x: slicedData3.map(object => object.Happiness_Score),
   y: slicedData3.map(object => object.Country),
   type: "bar",
@@ -55,7 +69,7 @@ var trace3 = {
     opacity: 0.8,
 }
 }
-var trace4 = {
+ trace4 = {
   x: slicedData4.map(object => object.Happiness_Score),
   y: slicedData4.map(object => object.Country),
   type: "bar",
@@ -125,7 +139,7 @@ var trace10 ={
     opacity: 0.8,
 }
 }
-var data = [trace2,trace1];
+var data = [trace4,trace3];
 var layout = {
   showlegend: false,
   xaxis: {
@@ -150,7 +164,7 @@ var trace11 = {
   mode: 'markers',
   marker: {
     color: 'rgb(138,29,99)',
-    size: 12,
+    size: 14,
     
   }           
 }
@@ -158,11 +172,11 @@ var trace12 = {
   x: sortedByranking1.map(obj => obj.Happiness_Score).slice(146,156),
   y: sortedByranking1.map(obj => obj.Life_Expectancy).slice(146,156),
   text: sortedByranking1.map(obj=>obj.Country).slice(146,156),
-  name: 'Countries least happiness ',
+  name: 'Least happy countries ',
   mode: 'markers',
   marker: {
     color: 'rgb(75,138,20)',
-    size: 12,
+    size: 14,
     
   }     
 }
@@ -174,7 +188,7 @@ var trace13 = {
   mode: 'markers',
   marker: {
     color: 'rgb(213, 156, 137)',
-    size: 12,
+    size: 14,
     
   }     
 }
@@ -189,15 +203,16 @@ var layout1 = {
   }
 }
 
-Plotly.newPlot("bubble", [trace11,trace12,trace13],layout1);
+Plotly.newPlot("bubble", [trace11,trace12,trace13],layout1,{displayModeBar: false});
 
 });
 }
 
-function getData() {
+function getData(dataset) {
   // On change to the DOM, call getData()
-  d3.selectAll("#selDataset").on("change", getData);
-  
+  // d3.selectAll("#selDataset").on("change", getData);
+  buildPlot ();
+
   // Function called by DOM changes
   
     var dropdownMenu = d3.select("#selDataset");
@@ -210,8 +225,18 @@ function getData() {
         data = trace2,trace1;
     }
     else if (dataset == '2018') {
-        data = trace4,trace3
+        data = trace4,trace3;
     }
+    else if (dataset == '2017'){
+        data = trace6, trace5;
+    }
+    else if (dataset == '2016'){
+      data = trace8, trace7;
+    }
+    else if (dataset == '2015'){
+      data = trace10, trace9;
+    }
+    
 
     // Call function to update the chart
     updatePlotly(data);

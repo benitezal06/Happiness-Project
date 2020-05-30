@@ -1,82 +1,101 @@
-var map = L.map("map", {
+
+// World Happiness map - START
+var map = L.map("map",{
+    zoomControl: false,
     center: [40.9631, -1.0208],
     zoom: 2
   });
-
-// add an OpenStreetMap tile layer
+// add an OpenStreetMap tile layer - mapbox/streets-v11
+// mapbox.streets mapbox.light mapbox.dark mapbox.satelight mapbox.streets-satelite 
+// mapbox.wheatpaste mapbox.streets-basic mapbox.comic mapbox.outdoors
+// mapbox.run-bike-hike mapbox.pencil mapbox.pirates mapbox.emerald mapbox.high-contrast
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 15,
+    maxZoom:15,
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
     accessToken: "pk.eyJ1IjoiYmVuaXRlemFsIiwiYSI6ImNrOWZ2aTYyZDBmNG8zbGxjZ3FkZW1qYmUifQ.qh7R-7KzzMe8ikOZ1gJaaA"
 }).addTo(map);
-// http://127.0.0.1:5000/api/v1/alldata
-var url = "http://127.0.0.1:5000/api/v1/alldata"
-
-// d3.json(url).then(function(data) {
-//   var data2 = data.filter( d => d["Data_Year"] == 2019 );
-//   var country = data2[0].Country
-//   console.log(data2)
-//   console.log(data)
-//   console.log(country)
-//   // console.log('bob')
-// })
 
 
+function loadMapForYear(year) {
+  // load geoJsonData data
+  d3.json("http://127.0.0.1:5000/api/v1/getGeoJsonData/" + year).then(function(geoJsonData) {
 
-//   // Create a new choropleth layer
-//   geojson = L.choropleth(data2, {
+    // add color to the map for country rank
+    L.geoJson(geoJsonData, {style: style}).addTo(map);
+  });
+}
 
-//     // Define what  property in the features to use
-//     valueProperty: "Happiness Score",
+// select color based on happiness rank
+function chooseColor(happinessRank) {
+  return happinessRank > 7 ? '#2d323f' :
+         happinessRank > 6? '#50676d' :
+         happinessRank > 5 ? '#bdd1dd' :
+         happinessRank > 4 ? '#dee2e1' :
+         happinessRank > 3 ? '#e89b93' :
+         happinessRank > 2  ? '	#ffe4e1' :
+         happinessRank > 1  ? '#70a3bb' :
+                               '#ffed1f';
+}
 
-//     // Set color scale
-//     scale: ["#ffffb2", "#b10026"],
+// style to be added to map layer for setting color to happiness rank
+function style(feature) {
+  return {
+      fillColor: chooseColor(feature.properties.Happiness_Score),
+      weight: 2,
+      opacity: 1,
+      color: 'black',
+      dashArray: '3',
+      fillOpacity: 0.7
+  };
+}
+// add legend
+var legend = L.control({position: 'topleft', });
 
-//     // Number of breaks in step range
-//     steps: 10,
+legend.onAdd = function (map) {
 
-//     // q for quartile, e for equidistant, k for k-means
-//     mode: "q",
-//     style: {
-//       // Border color
-//       color: "#fff",
-//       weight: 1,
-//       fillOpacity: 0.8
-//     },
+  var div = L.DomUtil.create('div', 'info legend'),
+  
+    ranks = [0, 1, 2, 3, 4, 5, 6, +7],
+    labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < ranks.length; i++) {
+      div.innerHTML +=
+          '<i style="background:' + chooseColor(ranks[i] + 1) + '"></i> ' +
+            ranks[i] + (ranks[i + 1] ? '&ndash;' + ranks[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+  };
+
+  legend.addTo(map);
 
 
-//     // Binding a pop-up to each layer
-//     onEachFeature: function(feature, layer) {
-//       layer.bindPopup("Zip Code: " + 2 + "<br>Median Household Income:<br>" +
-//         "$" + 2);
-//     }
-//   }).addTo(myMap);
-// });
+var legend = L.control({position: 'topright'});
 
-// var trace1 = {
-//   x: [1, 2, 3, 4],
-//   y: [10, 15, 13, 17],
-//   mode: 'markers',
-//   type: 'scatter'
-// };
 
-// var trace2 = {
-//   x: [2, 3, 4, 5],
-//   y: [16, 5, 11, 9],
-//   mode: 'lines',
-//   type: 'scatter'
-// };
+legend.onAdd = function (map) {
+  var div = L.DomUtil.create('div', 'info legend');
+  div.innerHTML = "<select  onchange='yearChangedEvent(this)'><option>All Years</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option></select>";
+  div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
+  return div;
+};
 
-// var trace3 = {
-//   x: [1, 2, 3, 4],
-//   y: [12, 9, 15, 12],
-//   mode: 'lines+markers',
-//   type: 'scatter'
-// };
 
-// var data = [trace1, trace2, trace3];
+legend.addTo(map);
 
-// Plotly.newPlot('myDiv', data);
+
+// drop down year filter selection
+function yearChangedEvent(selectObject) {
+  var year = selectObject.value; 
+  loadMapForYear(year);
+  // console.log(year);
+}
+
+// set default year to All Years - first time
+loadMapForYear("All Years");
+// World Happiness map - END
+
