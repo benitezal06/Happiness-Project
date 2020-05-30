@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 import pymongo
 from bson.json_util import dumps
+import os
+import json
 
 app = Flask(__name__)
 
@@ -11,6 +13,25 @@ client = pymongo.MongoClient(conn)
 # connect to mongo db and collection
 db = client.ranking_happiness
 happiness = db.happiness
+geoJsonCountry = db.geoJsonCountry
+
+# Show map with countries colored by rank
+@app.route("/api/v1/getGeoJsonData/<year>")
+def getGeoJsonData(year):
+
+    print ("at getGeoJsonData..." + str(year))
+
+    if year.isnumeric():
+        records = list(geoJsonCountry.find({"dataYear": int(year)}))
+    else:
+        records = list(geoJsonCountry.find({}))
+
+    if records:
+        print("records found: " + str(len(records)))
+    else:
+        print("no data found!")
+
+    return dumps(records)   
 
 
 @app.route("/api/v1/alldata")
@@ -24,6 +45,7 @@ def happ():
 
 @app.route("/")
 def main():
+    print ("at root...")
     return render_template("index.html")
 
 if __name__ == "__main__":
