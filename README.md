@@ -1,3 +1,3 @@
 # Happiness-Project
-
-Something new added here!
+![1-Logo](images/nav_bar.png)
+## Review the project outline
